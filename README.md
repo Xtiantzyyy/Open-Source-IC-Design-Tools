@@ -11,7 +11,7 @@ This is a compilation of my notes on open-source IC design using SKY130 PDK, XSC
 - [Installation of XSCHEM](#installation-of-xschem)
 - [Inquiries](#inquiries)
 
-## 🚀 Installation of Virtualization Software
+## Installation of Virtualization Software 🚀
 ![image](https://github.com/user-attachments/assets/a453764e-c835-4ed0-bc5f-ab2756647b6e)
 
 For Windows users, [**VirtualBox**](https://www.virtualbox.org) is a popular open-source virtualization software that allows you to create and manage virtual machines. On Linux, **[QEMU](https://www.qemu.org)/[KVM](https://linux-kvm.org/page/Main_Page)** is the preferred open-source solution, providing efficient virtualization with hardware acceleration. 
@@ -20,7 +20,7 @@ To get started, download and install the appropriate software for your operating
 
 Once installed, you can create virtual machines, allocate system resources, and install your desired operating system within the virtual environment.
 
-## 💻 Installation of Ubuntu 
+## Installation of Ubuntu 💻
 To set up your "virtual machine (VM)", allocate atleast "2 CPU cores", "8GB of RAM", and "70GB of disk storage". Ensure that networking is enabled so you can download and install software from the web.
 
 On your host computer, download the latest Ubuntu ISO image from the official [Ubuntu website](https://ubuntu.com/download). For this tutorial, we are using Ubuntu 24.04.1.
@@ -48,7 +48,7 @@ sudo reboot
 ```
 Now, your Ubuntu VM is fully set up with networking, updates, and enhanced performance! 🚀
 
-## 📋 Pre-Requisites
+## Pre-Requisites 📋
 
 **Setting Up Essential Software**
 
@@ -81,7 +81,7 @@ Verify the installation:
 pip3 --version
 ```
 
-## 🔧 Installation of NGSPICE  
+## Installation of NGSPICE 🔧
 ![image](https://github.com/user-attachments/assets/84bc4339-1fa7-40d7-a6c5-5c47f4e899d7)
 
 **NGSPICE** is an open-source **[SPICE](https://en.wikipedia.org/wiki/SPICE)**. simulator used for analyzing electronic circuits. To get started, download the latest version from the [**NGSPICE website**](https://ngspice.sourceforge.io/download.html), then extract the compressed file:
@@ -100,7 +100,7 @@ sudo make install
 By default, NGSPICE executables will be installed in /usr/local/bin/.
 📌 Note: In this case, **ngspice-44.2** was used. If a newer version is available, update the filename accordingly.
 
-## 🎨 Installation of MAGIC  
+## Installation of MAGIC 🎨
 ![image](https://github.com/user-attachments/assets/46468d2d-82b3-48bb-a97a-890f56af6ad0)
 
 **MAGIC** is a **free and open-source VLSI layout tool used for IC design**. 
@@ -126,7 +126,7 @@ make
 sudo make install
 ```
 
-## 🏗️ Installation of SKY130 
+## Installation of SKY130 🏗️
 ![image](https://github.com/user-attachments/assets/5b189708-eb4d-4c28-b72a-59e7d7a28e25)
 
 The [**SkyWater 130nm PDK (SKY130)**]() is an open-source semiconductor process node designed for integration with open-source EDA tools. This PDK provides libraries, models, and design flows required for IC development. While **OpenPDK** also supports **GF180MCU**, this guide will focus specifically on **SkyWater’s SKY130 process**.
@@ -142,7 +142,7 @@ cd open_pdks/
 make
 sudo make install
 ```
-## 📜 Installation of XSCHEM
+## Installation of XSCHEM 📜
 ![image](https://github.com/user-attachments/assets/08d2e00c-cf83-43be-b639-d008a479ef1b)
 
 **XSCHEM** is a powerful open-source schematic editor designed for **VLSI**, **ASIC**, and **analog circuit design**. It supports netlist generation for **VHDL**, **SPICE**, and **Verilog**. To install XSCHEM, start by cloning its source code from GitHub:
@@ -161,7 +161,7 @@ After installation, you must copy the **XSCHEM configuration file** for the **Sk
 cp /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc .
 ```
 
-## 📩 Inquiries  
+## Inquiries 📩
 For any questions or clarifications, feel free to reach out via:  
 💼 LinkedIn: https://www.linkedin.com/in/john-christian-leocario/
 📌 GitHub Issues: [Open an Issue](https://github.com/Xtiantzyyy/Open-Source-IC-Design-Tools) 
