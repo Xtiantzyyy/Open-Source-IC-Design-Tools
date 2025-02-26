@@ -1,4 +1,4 @@
-# Open-Source-IC-Design-Tools
+# Open Source IC Design Tools
 This is a compilation of my notes on open-source IC design using SKY130 PDK, XSCHEM, NGSPICE, and MAGIC. The goal is to document schematic capture, circuit simulation, and full-custom layout design using open-source tools.
 
 ## 📌 Table of Contents
