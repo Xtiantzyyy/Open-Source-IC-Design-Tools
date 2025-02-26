@@ -2,14 +2,14 @@
 This is a compilation of my notes on open-source IC design using SKY130 PDK, XSCHEM, NGSPICE, and MAGIC. The goal is to document schematic capture, circuit simulation, and full-custom layout design using open-source tools.
 
 ## 📌 Table of Contents
-- [Installation of Virtualization Software](#installation-of-virtualization-software)
-- [Installation of Ubuntu](#installation-of-ubuntu)
-- [Pre-Requisites](#pre-requisites)
-- [Installation of NGSPICE](#installation-of-ngspice)
-- [Installation of MAGIC](#installation-of-magic)
-- [Installation of SKY130](#installation-of-sky130)
-- [Installation of XSCHEM](#installation-of-xschem)
-- [Inquiries](#inquiries)
+- [Installation of Virtualization Software](#installation-of-virtualization-software-🚀)
+- [Installation of Ubuntu](#installation-of-ubuntu-💻)
+- [Pre-Requisites](#pre-requisites-📋)
+- [Installation of NGSPICE](#installation-of-ngspice-🔧)
+- [Installation of MAGIC](#installation-of-magic-🎨)
+- [Installation of SKY130](#installation-of-sky130-🏗️)
+- [Installation of XSCHEM](#installation-of-xschem-📜)
+- [Inquiries](#inquiries-📩)
 
 ## Installation of Virtualization Software 🚀
 ![image](https://github.com/user-attachments/assets/a453764e-c835-4ed0-bc5f-ab2756647b6e)
