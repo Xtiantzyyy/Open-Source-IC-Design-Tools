@@ -164,4 +164,5 @@ cp /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc .
 ## Inquiries 📩
 For any questions or clarifications, feel free to reach out via:  
 💼 LinkedIn: https://www.linkedin.com/in/john-christian-leocario/
+
 📌 GitHub Issues: [Open an Issue](https://github.com/Xtiantzyyy/Open-Source-IC-Design-Tools) 
