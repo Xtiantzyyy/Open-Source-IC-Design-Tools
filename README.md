@@ -100,6 +100,7 @@ make
 sudo make install
 ```
 By default, NGSPICE executables will be installed in /usr/local/bin/.
+
 📌 Note: In this case, **ngspice-44.2** was used. If a newer version is available, update the filename accordingly.
 
 ## Installation of MAGIC 🎨
@@ -162,6 +163,37 @@ After installation, you must copy the **XSCHEM configuration file** for the **Sk
 ```bash
 cp /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc .
 ```
+
+# Configuring XSCHEM
+
+Open a terminal and navigate to the XSCHEM configuration directory:
+```bash
+cd /usr/local/share/xschem
+ls  # Check if the xschemrc file is present
+```
+Edit the xschemrc file using nano:
+```bash
+sudo nano xschemrc
+```
+Something like this will appear on your screen, we need to locate the append part:
+![image](https://github.com/user-attachments/assets/81910428-68c1-424a-97de-c1a323076c7a)
+
+Locate the "append" section by pressing Ctrl + W in nano and searching for "append" and then paste this code:
+```bash
+append XSCHEM_LIBRARY_PATH :/usr/local/share/pdk/sky130A/libs.tech/xschem
+```
+It should be like this:
+![image](https://github.com/user-attachments/assets/ff013e9a-7708-44c0-9421-275d69fddbdf)
+
+Save and exit nano:
+
+Press `Ctrl + X` to exit.
+
+Press `Y` to confirm saving.
+
+Press `Enter` to save the file.
+
+Restart **XSCHEM** by navigating back to your project directory and launch the XSCHEM
 
 ## Inquiries 📩
 For any questions or clarifications, feel free to reach out via:  
