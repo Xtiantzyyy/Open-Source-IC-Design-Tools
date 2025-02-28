@@ -29,7 +29,9 @@ Next, boot up your newly created VM using the Ubuntu ISO installer and select No
 
 Once Ubuntu is successfully installed, log in to your VM and update the system by running the following command:
 
-`sudo apt update && sudo apt upgrade -y`
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
 If you are using VirtualBox, install Guest Additions to enable features like shared clipboard, drag-and-drop, and better display resolution.
 
