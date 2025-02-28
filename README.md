@@ -176,6 +176,7 @@ Edit the xschemrc file using nano:
 sudo nano xschemrc
 ```
 Something like this will appear on your screen, we need to locate the append part:
+
 ![image](https://github.com/user-attachments/assets/81910428-68c1-424a-97de-c1a323076c7a)
 
 Locate the "append" section by pressing Ctrl + W in nano and searching for "append" and then paste this code:
@@ -183,6 +184,7 @@ Locate the "append" section by pressing Ctrl + W in nano and searching for "appe
 append XSCHEM_LIBRARY_PATH :/usr/local/share/pdk/sky130A/libs.tech/xschem
 ```
 It should be like this:
+
 ![image](https://github.com/user-attachments/assets/ff013e9a-7708-44c0-9421-275d69fddbdf)
 
 Save and exit nano:
@@ -194,6 +196,8 @@ Press `Y` to confirm saving.
 Press `Enter` to save the file.
 
 Restart **XSCHEM** by navigating back to your project directory and launch the XSCHEM
+
+**Enjoy your first project in IC Design!**
 
 ## Inquiries 📩
 For any questions or clarifications, feel free to reach out via:  
