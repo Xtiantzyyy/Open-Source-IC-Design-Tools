@@ -195,6 +195,17 @@ Restart **XSCHEM** by navigating back to your project directory and launch the X
 
 ![image](https://github.com/user-attachments/assets/de4544ec-c8c1-4a4c-8c32-958c9404ebeb)
 
+Once **NGSPICE** and the **SkyWater 130nm PDK** are installed, you can confirm that everything is set up correctly by simulating transistor characteristics. 
+Use **NGSPICE** to generate plots based on the example provided:
+```bash
+git clone https://github.com/Xtiantzyyy/Open-Source-IC-Design-Tools
+```
+```bash
+cd Open-Source-IC-Design-Tools
+ngspice skywater-mos-test.sp
+```
+![image](https://github.com/user-attachments/assets/dc984ff5-e32e-4961-9238-557d9f8c95d5)
+
 **Enjoy your first project in IC Design!**
 
 ## Inquiries 📩
