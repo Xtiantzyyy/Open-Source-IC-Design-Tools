@@ -159,10 +159,6 @@ cd xschem
 make
 sudo make install
 ```
-After installation, you must copy the **XSCHEM configuration file** for the **SkyWater 130nm PDK** to your working directory. This step ensures access to the **design kit features**:
-```bash
-cp /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc .
-```
 
 # Configuring XSCHEM
 
@@ -185,7 +181,7 @@ append XSCHEM_LIBRARY_PATH :/usr/local/share/pdk/sky130A/libs.tech/xschem
 ```
 It should be like this:
 
-![image](https://github.com/user-attachments/assets/ff013e9a-7708-44c0-9421-275d69fddbdf)
+![image](https://github.com/user-attachments/assets/23faf996-fe89-499c-90e0-2f6490f224c6)
 
 Save and exit nano:
 
@@ -196,6 +192,8 @@ Press `Y` to confirm saving.
 Press `Enter` to save the file.
 
 Restart **XSCHEM** by navigating back to your project directory and launch the XSCHEM
+
+![image](https://github.com/user-attachments/assets/de4544ec-c8c1-4a4c-8c32-958c9404ebeb)
 
 **Enjoy your first project in IC Design!**
 
