@@ -156,6 +156,7 @@ cd ../..
 ```bash
 sudo ln -s /usr/local/share/pdk/sky130A/libs.tech/magic/* /usr/local/lib/magic/sys/
 ```
+
 ## Installation of XSCHEM 📜
 ![image](https://github.com/user-attachments/assets/08d2e00c-cf83-43be-b639-d008a479ef1b)
 
