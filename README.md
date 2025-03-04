@@ -7,7 +7,7 @@ This is a compilation of my notes on open-source IC design using SKY130 PDK, XSC
 - [Pre-Requisites](#pre-requisites-)
 - [Installation of NGSPICE](#installation-of-ngspice-)
 - [Installation of MAGIC](#installation-of-magic-)
-- [Installation of SKY130](#installation-of-sky130-)
+- [Installation of SKY130](#installation-of-sky130-%EF%B8%8F)
 - [Installation of XSCHEM](#installation-of-xschem-)
 - [Inquiries](#inquiries-)
 
