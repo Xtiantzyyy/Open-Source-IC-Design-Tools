@@ -145,6 +145,17 @@ cd open_pdks/
 make
 sudo make install
 ```
+
+# Integrating the SKY130 Library into Magic
+
+Type the following in the command prompt:
+📌 Make sure that your directory is outside the home directory. If not, type the following:
+```bash
+cd ../..
+```
+```bash
+sudo ln -s /usr/local/share/pdk/sky130A/libs.tech/magic/* /usr/local/lib/magic/sys/
+```
 ## Installation of XSCHEM 📜
 ![image](https://github.com/user-attachments/assets/08d2e00c-cf83-43be-b639-d008a479ef1b)
 
