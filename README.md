@@ -110,10 +110,6 @@ By default, NGSPICE executables will be installed in /usr/local/bin/.
 
 Before downloading MAGIC, ensure Git is installed on your system:
 ```bash
-git clone https://github.com/RTimothyEdwards/magic
-```
-Before downloading MAGIC, ensure Git is installed on your system:
-```bash
 sudo apt update
 sudo apt install -y git
 ```
